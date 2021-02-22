@@ -8,7 +8,7 @@ double cube(double num);            // String prototype used to let the main fun
 int main()
 {
     double answer = cube(3);        // Gives control to function when called.
-    cout << answer << endl;
+    cout << answer << endl;         // Outputting results
 
     return 0;
 }
