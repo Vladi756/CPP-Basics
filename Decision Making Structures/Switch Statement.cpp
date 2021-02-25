@@ -29,13 +29,13 @@ string getDayOfWeek(int dayNum) // Converts number into corresponding day of wee
         dayName = "Sunday";
         break;
     default:
-        dayName = "Invalid argument.";
+        dayName = "Invalid argument.";  // In case the user's input isn't between 1 and 7.
     }
     return dayName;
 }
 
 int main()
 {
-    cout << getDayOfWeek(8);
+    cout << getDayOfWeek(6);        // Printing output, which would be "Saturday"
     return 0;
 }
