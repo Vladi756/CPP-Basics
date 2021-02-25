@@ -36,6 +36,6 @@ string getDayOfWeek(int dayNum) // Converts number into corresponding day of wee
 
 int main()
 {
-    cout << getDayOfWeek(6);        // Printing output, which would be "Saturday"
+    cout << getDayOfWeek(6);           // Printing output, which would be "Saturday"
     return 0;
 }
